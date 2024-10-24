@@ -1,0 +1,66 @@
+
+/* Importing Google Fonts for enhanced typography */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif; /* Updated font */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6; /* Improved readability */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px; /* Slightly increased padding */
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Added shadow for depth */
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif; /* Updated font for headings */
+    margin: 0; /* Reset default margins */
+}
+
+section {
+    margin: 20px auto; /* Centered section with auto margins */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px; /* Increased border radius for a softer look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Added shadow for depth */
+    max-width: 800px; /* Set a max width for better readability */
+    transition: transform 0.3s; /* Transition effect for hover */
+}
+
+section:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 15px; /* Increased padding */
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Added shadow for depth */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Smaller font size on mobile */
+    }
+    
+    header, footer {
+        padding: 10px; /* Adjusted padding for smaller screens */
+    }
+
+    section {
+        margin: 10px; /* Reduced margin on mobile */
+        padding: 15px; /* Adjusted padding on mobile */
+    }
+}
